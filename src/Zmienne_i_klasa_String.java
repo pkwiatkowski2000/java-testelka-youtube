@@ -19,7 +19,7 @@ public class Zmienne_i_klasa_String {
         System.out.println(letterA);
         System.out.println(alsoLetterA);
 
-        String text = "Moja ulubiona książka to \"Wszechświaty równoległe\"
+        String text = "Moja ulubiona książka to \"Wszechświaty równoległe\"";
         System.out.println(text);
     }
 }
