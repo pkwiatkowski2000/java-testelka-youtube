@@ -62,3 +62,5 @@ public class PętlaWhileOrazDoWhile {
         while (generator.nextInt(5) != liczba);
     }
 }
+
+20:18
