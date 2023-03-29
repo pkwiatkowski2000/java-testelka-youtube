@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-public class Operatory_matematyczne {
+public class OperatoryMatematyczne {
     @Test
     public void examples() {
         int pierwsza = 11;
