@@ -10,7 +10,7 @@ public class PętlaWhileOrazDoWhile {
         int silnia1 = 1;
         int silnia0 = 1;
         int silnia6 = obliczSilnię(6);
-        int silnia8 = obliczSilnię2(8);
+//        int silnia8 = obliczSilnię2(8);
         czyToMojaLiczba(4);
     }
 
@@ -27,7 +27,7 @@ public class PętlaWhileOrazDoWhile {
         return silnia;
     }
 
-    private int obliczSilnię2(int liczba) {
+    /*private int obliczSilnię2(int liczba) {
         int silnia = 1;
         int i = 2;
 
@@ -40,7 +40,7 @@ public class PętlaWhileOrazDoWhile {
         }
         return silnia;
     }
-
+*/
 
     private void czyToMojaLiczba(int liczba) {
         int licznik = 0;
@@ -62,5 +62,3 @@ public class PętlaWhileOrazDoWhile {
         while (generator.nextInt(5) != liczba);
     }
 }
-
-20:18
