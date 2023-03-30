@@ -1,4 +1,4 @@
-package ReferenceTypes;
+package TypyReferencyjne;
 
 public class TypesTests {
 }
