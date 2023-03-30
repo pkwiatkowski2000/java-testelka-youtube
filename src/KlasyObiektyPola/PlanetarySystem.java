@@ -5,10 +5,16 @@ public class PlanetarySystem {
     private String starType;
     private int numberOfPlanets;
 
-    public PlanetarySystem(String name, String type, int planets) {
-        starName = name;
-        starType = type;
-        numberOfPlanets = planets;
+    public PlanetarySystem(String starName, String starType, int numberOfPlanets) {
+        this.starName = starName;
+        this.starType = starType;
+        this.numberOfPlanets = numberOfPlanets;
+
+        System.out.println("Name of star is: " + starName + ", star type is " + starType + ", number of planets is " + numberOfPlanets);
+    }
+
+    public PlanetarySystem() {
+
     }
 
     public String getStarName() {
@@ -24,7 +30,7 @@ public class PlanetarySystem {
     }
 
     public void printNumberOfPlanets() {
-        System.out.println("Number of planets " + numberOfPlanets);
+        System.out.println("Number of planets: " + numberOfPlanets);
     }
 
 
