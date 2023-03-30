@@ -11,6 +11,9 @@ public class BasePage {
 
     }
 
+    // Protected można użyć w obrębie tego samego pakietu lub w klasie dziedziczącej po tej klasie
+    // Domyślny modyfikator dostępu można użyć tylko w obrębie tego samego pakietu
+
     public void searchForProduct(String product) {
         System.out.println("Searching for product " + product);
         System.out.println(url);

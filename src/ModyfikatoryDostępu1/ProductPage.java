@@ -1,6 +1,6 @@
 package ModyfikatoryDostępu1;
 
-public class ProductPage extends BasePage {
+public class ProductPage {
     public String productName;
     public String productPrice;
 
