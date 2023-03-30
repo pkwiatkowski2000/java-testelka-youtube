@@ -1,15 +1,18 @@
 package ModyfikatoryDostępu1;
 
 public class BasePage {
-    String title;
-    String url;
-    String username;
+    public String title;
+    public String url;
 
-    void goTo(String pageUrl) {
+    public BasePage() {}
+
+    public void goTo (String pageUrl){
         System.out.println("Going to page");
+
     }
 
-    void searchForProduct(String product) {
+    public void searchForProduct(String product) {
         System.out.println("Searching for product " + product);
+        System.out.println(url);
     }
 }
