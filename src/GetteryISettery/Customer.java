@@ -7,11 +7,11 @@ public class Customer {
     private Address address;
 
     public Address getAddress() {
-        return address;
+        return copy(address);
     }
 
     public void setAddress(Address addressParameter) {
-        address = addressParameter;
+        address = copy(addressParameter);
     }
 
     public void setAge(int ageParameter) {
@@ -21,7 +21,12 @@ public class Customer {
         age = ageParameter;
     }
 
-    public String getAge() {
-        return age + " lat";
+    public int getAge() {
+        return age;
+    }
+
+    private Address copy(Address addressToCopy) {
+        Address address = new Address(addressToCopy.getCity(), addressToCopy.getStreet(), addressToCopy.getApartment());
+        return address;
     }
 }
