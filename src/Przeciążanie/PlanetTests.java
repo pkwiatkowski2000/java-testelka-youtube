@@ -25,7 +25,7 @@ public class PlanetTests {
                         "Rotation period (days): 1.026\n" +
                         "Diameter (km): 6787\n" +
                         "Moons: 2\n" +
-                        "Has rings?: falser" +
+                        "Has rings?: false" +
                         "\n\n" + message,
                 mars.info(message));
     }

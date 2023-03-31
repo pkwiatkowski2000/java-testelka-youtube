@@ -43,4 +43,5 @@ public class Planet {
                 "\nMoons: " + numberOfMoons +
                 "\nHas rings?: " + hasRings +
                 "\n\n" + message1);
+    }
 }
