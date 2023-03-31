@@ -1,6 +1,6 @@
 package Przesłanianie;
 
-public class Planet {
+public class Planet extends AstronomicalObject {
     private String name;
     private double rotationPeriodInDays;
     private int diameter;
@@ -26,7 +26,7 @@ public class Planet {
                 "\nMoons: " + numberOfMoons +
                 "\nHas rings?: " + hasRings);
     }
-
+@Override
     public String info(String message) {
         return ("Name: " + name +
                 "\nRotation period (days): " + rotationPeriodInDays +
