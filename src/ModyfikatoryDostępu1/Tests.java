@@ -2,10 +2,10 @@ package ModyfikatoryDostępu1;
 
 import org.junit.jupiter.api.Test;
 
-public class Tests extends BasePage {
+public class Tests
     @Test
-    public void productPriceTest() {
-        BasePage basePage = new BasePage();
-        basePage.goTo("jakiś url");
+    public void addToCartTest() {
+        ProductPage productPage = new ProductPage();
+        productPage.setAmount(3).addToCart().goToCart();
     }
 }

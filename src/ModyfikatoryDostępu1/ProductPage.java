@@ -1,12 +1,21 @@
 package ModyfikatoryDostępu1;
 
-public class ProductPage {
+public class ProductPage extends BasePage {
     public String productName;
     public String productPrice;
 
-    protected void addToCart() {
-        BasePage basePage = new BasePage();
-        basePage.searchForProduct("product");
-        System.out.println("Product added to cart");
+    protected ProductPage addToCart() {
+        System.out.println("Produkt dodany do koszyka");
+        return this;
+    }
+    protected ProductPage setAmount(int amount) {
+        System.out.println("Wybrano ilość: " +amount);
+        return this;
+
+    }
+
+    protected void goToCart() {
+        System.out.println("Przejście do koszyka");
+        return new CartPage();
     }
 }

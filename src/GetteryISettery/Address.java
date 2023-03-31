@@ -12,6 +12,11 @@ public class Address {
         this.city = city;
     }
 
+    public Address(String city, String street, String apartment, String postalcode) {
+        this(city, street, apartment);
+        this.postalcode = postalcode;
+    }
+
     public String getStreet() {
         return street;
     }
