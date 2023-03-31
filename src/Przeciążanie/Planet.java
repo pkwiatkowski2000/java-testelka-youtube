@@ -15,6 +15,10 @@ public class Planet {
         this.hasRings = hasRings;
     }
 
+    public Planet(String name) {
+        this.name = name;
+    }
+
     public String info() {
         return ("Name: " + name +
                 "\nRotation period (days): " + rotationPeriodInDays +
@@ -22,4 +26,21 @@ public class Planet {
                 "\nMoons: " + numberOfMoons +
                 "\nHas rings?: " + hasRings);
     }
+
+    public String info(String message) {
+        return ("Name: " + name +
+                "\nRotation period (days): " + rotationPeriodInDays +
+                "\nDiameter (km): " + diameter +
+                "\nMoons: " + numberOfMoons +
+                "\nHas rings?: " + hasRings +
+                "\n\n" + message);
+    }
+
+    public String info(String message1, String message2) {
+        return ("Name: " + name +
+                "\nRotation period (days): " + rotationPeriodInDays +
+                "\nDiameter (km): " + diameter +
+                "\nMoons: " + numberOfMoons +
+                "\nHas rings?: " + hasRings +
+                "\n\n" + message1);
 }
