@@ -9,6 +9,8 @@ public class Tests {
         int age = 15;
         customer.setAge(15);
         System.out.println("Wiek: " + customer.getAge());
+        age = 22;
+        System.out.println("Wiek: " + customer.getAge());
     }
     @Test
     public void gettersAndSettersObjectsTest() {

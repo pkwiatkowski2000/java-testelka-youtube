@@ -4,6 +4,15 @@ public class Customer {
     private String name;
     private String lastName;
     private int age;
+    private Address address;
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address addressParameter) {
+        address = addressParameter;
+    }
 
     public void setAge(int ageParameter) {
         if (ageParameter < 0) {
