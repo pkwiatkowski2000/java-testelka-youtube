@@ -2,13 +2,14 @@ package GetteryISettery;
 
 public class Address {
     private String street;
+    private String postalcode;
     private String apartment;
     private String city;
 
-    public Address(String cityName, String streetName, String apartmentNumber) {
-        street = streetName;
-        apartment = apartmentNumber;
-        city = cityName;
+    public Address(String city, String street, String apartment) {
+        this.street = street;
+        this.apartment = apartment;
+        this.city = city;
     }
 
     public String getStreet() {
