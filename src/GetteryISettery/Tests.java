@@ -17,7 +17,6 @@ public class Tests {
     public void gettersAndSettersObjectsTest() {
         Customer customer = new Customer();
         Address address = new Address("Kraków", "Fiołkowa", "15/22");
-        address.setStreet();
         customer.setAddress(address);
         Address address2 = customer.getAddress();
         System.out.println("Adres: " +

@@ -16,6 +16,5 @@ public class ProductPage extends BasePage {
 
     protected void goToCart() {
         System.out.println("Przejście do koszyka");
-        return new CartPage();
     }
 }
