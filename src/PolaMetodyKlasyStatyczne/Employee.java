@@ -1,5 +1,11 @@
 package PolaMetodyKlasyStatyczne;
 
 public class Employee {
-    05:01
+    int id;
+    static int nextId = 1;
+
+    Employee() {
+        id = nextId;
+        nextId++;
+    }
 }
