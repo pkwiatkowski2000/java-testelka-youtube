@@ -1,11 +1,13 @@
 package KlasyAbstrakcyjneIInterfejsy;
 
-class User {
+abstract class User {
 
     String username;
     String password;
     String name;
     String lastName;
+
+    User (String username, String password) {}
 
     void login (String username, String password) {
         if (username.equals(this.username) && password.equals(this.password)) {
@@ -17,3 +19,5 @@ class User {
         System.out.println("Wylogowywanie");
     }
 }
+
+09:00
