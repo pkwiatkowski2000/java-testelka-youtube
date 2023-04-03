@@ -3,12 +3,16 @@ package PolaMetodyKlasyStatyczne;
 public class Employee {
     int id;
     static int nextId = 1;
-    int maxHolidayDays = 26;
+    static final int maxHolidayDays = 26;
     int usedHolidayDays = 0;
 
-    Employee() {
+    final String lastName;
+
+    Employee(String lastName) {
         id = nextId;
         nextId++;
+
+        this.lastName = lastName;
     }
 
     void takeVacation(int days) {
