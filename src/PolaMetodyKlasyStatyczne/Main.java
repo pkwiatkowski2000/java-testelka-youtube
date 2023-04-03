@@ -2,6 +2,12 @@ package PolaMetodyKlasyStatyczne;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Math.sqrt(25));
+        FunnyClass funnyClass = new FunnyClass();
+        funnyClass.print();
+
+        FunnyClass.FunnyNestedClass funnyNestedClass = funnyClass.new FunnyNestedClass();
+        funnyNestedClass.print();
     }
+
+
 }
