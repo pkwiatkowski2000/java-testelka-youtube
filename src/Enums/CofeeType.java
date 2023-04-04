@@ -1,0 +1,5 @@
+package Enums;
+
+public enum CofeeType {
+    LATTE, MOCHA, CAPUCCINO, MACCHIATO, FLATWHITE, ESPRESSO, CAFFEINFREE
+}
