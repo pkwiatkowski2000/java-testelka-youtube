@@ -11,7 +11,7 @@ public class Main {
         long number = (long) fraction;
         System.out.println(number);
 
-        int intNumber = (int)longNumber;
+        int intNumber = (int)  longNumber;
         System.out.println(intNumber);
 
         int otherNumber = (int) (3 + 2L);
