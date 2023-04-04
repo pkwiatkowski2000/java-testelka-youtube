@@ -2,7 +2,7 @@ package Enums;
 
 public class CoffeeMaker {
 
-    public void prepare(CofeeType cofeeType) {
+    public void prepare(CoffeeType cofeeType) {
 
         String message = switch (cofeeType) {
             case LATTE -> "Przygotowuję latte...";

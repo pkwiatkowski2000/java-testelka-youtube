@@ -1,5 +1,5 @@
 package Enums;
 
-public enum CofeeType {
+public enum CoffeeType {
     LATTE, MOCHA, CAPUCCINO, MACCHIATO, FLATWHITE, ESPRESSO, CAFFEINFREE
 }
