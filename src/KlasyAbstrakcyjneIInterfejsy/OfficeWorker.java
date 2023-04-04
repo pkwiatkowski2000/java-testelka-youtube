@@ -11,7 +11,8 @@ public class OfficeWorker extends User implements Employee {
         System.out.println(message);
     }
 
-    @Override
+
+    }@Override
     public void takeVacation(int days) {
         System.out.println("Wniosek o wakacje dla pracownika biurowego wysłany. " +
                 "Długość urlopu: " + days + " dni");
@@ -19,6 +20,7 @@ public class OfficeWorker extends User implements Employee {
 
     @Override
     public void takeSickLeave() {
-        System.out.println("Informacja o wzięciu zwolnienia lekarskiego przez pracownika biurowego wysłana");
+        System.out.println("Informacja o wzięciu zwolnienia lekarskiego przez" +
+                "przez pracownika biurowego wysłana");
     }
 }
