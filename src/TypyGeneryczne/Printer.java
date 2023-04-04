@@ -1,10 +1,11 @@
 package TypyGeneryczne;
 
-public class IntegerPrinter {
-    Integer number;
+public class Printer <T> {
+    T number;
 
-    public IntegerPrinter(Integer number) {
+    public Printer( T number) {
         this.number = number;
+
     }
 
     public void print() {

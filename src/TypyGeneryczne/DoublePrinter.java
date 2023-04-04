@@ -1,9 +1,8 @@
 package TypyGeneryczne;
 
-public class IntegerPrinter {
-    Integer number;
-
-    public IntegerPrinter(Integer number) {
+public class DoublePrinter {
+    Double number;
+    public DoublePrinter(Double number) {
         this.number = number;
     }
 

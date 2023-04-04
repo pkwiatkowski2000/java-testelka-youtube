@@ -1,9 +1,9 @@
 package TypyGeneryczne;
 
-public class IntegerPrinter {
-    Integer number;
+public class FloatPrinter {
+    Float number;
 
-    public IntegerPrinter(Integer number) {
+    public FloatPrinter(Float number) {
         this.number = number;
     }
 
