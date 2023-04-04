@@ -13,7 +13,6 @@ class Student extends User {
     void skipClass() {
         System.out.println("Idę na wagary");
     }
-}
 
     @Override
     void sendMessage(String message) {

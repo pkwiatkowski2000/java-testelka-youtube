@@ -1,6 +1,6 @@
 package KlasyAbstrakcyjneIInterfejsy;
 
-class Professor extends User {
+class Professor extends User implements Employee {
 
     Professor(String username, String password) {
         super(username, password);
