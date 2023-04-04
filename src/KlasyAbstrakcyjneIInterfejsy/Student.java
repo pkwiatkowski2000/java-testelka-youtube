@@ -3,8 +3,7 @@ package KlasyAbstrakcyjneIInterfejsy;
 class Student extends User {
 
     Student( String username, String password) {
-        this.username = username;
-        this.password = password;
+        super(username, password);
     }
 
     void checkNotes() {

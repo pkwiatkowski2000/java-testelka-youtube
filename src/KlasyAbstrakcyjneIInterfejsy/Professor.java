@@ -3,8 +3,8 @@ package KlasyAbstrakcyjneIInterfejsy;
 class Professor extends User {
 
     Professor (String username, String password) {
-        this.username = username;
-        this.password = password;
+        super(username, password);
+
     }
 
     void giveNotes() {

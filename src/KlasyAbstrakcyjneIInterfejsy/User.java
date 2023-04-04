@@ -7,7 +7,10 @@ abstract class User {
     String name;
     String lastName;
 
-    User (String username, String password) {}
+    User (String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
 
     void login (String username, String password) {
         if (username.equals(this.username) && password.equals(this.password)) {
@@ -19,5 +22,3 @@ abstract class User {
         System.out.println("Wylogowywanie");
     }
 }
-
-09:00
