@@ -14,3 +14,10 @@ class Student extends User {
         System.out.println("Idę na wagary");
     }
 }
+
+    @Override
+    void sendMessage(String message) {
+        System.out.println("Wysyłanie wiadomości do profesora:");
+        System.out.println(message);
+    }
+}

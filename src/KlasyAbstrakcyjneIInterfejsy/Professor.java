@@ -14,9 +14,9 @@ class Professor extends User {
     void cancelClass() {
         System.out.println("Odwołuję lekcje");
     }
-
+    @Override
     void sendMessage (String message) {
-        System.out.println("Wysyłanie wiadomości lda studentów");
+        System.out.println("Wysyłanie wiadomości do studentów");
         System.out.println(message);
     }
 }

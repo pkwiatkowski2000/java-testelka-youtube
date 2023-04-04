@@ -21,4 +21,7 @@ abstract class User {
     void logout() {
         System.out.println("Wylogowywanie");
     }
-}
+
+    abstract void sendMessage (String message);
+    }
+
