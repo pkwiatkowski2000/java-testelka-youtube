@@ -7,12 +7,16 @@ interface Employee {
     void takeSickLeave();
 
     default void quitJob() {
-        System.out.println("Nara!");
+        printBye();
     }
 
     static void fireEmployees(Employee[] employees) {
         for (Employee employee: employees) {
             employee.quitJob();
         }
+    }
+
+    private void printBye() {
+        System.out.println("Nara!");
     }
 }
