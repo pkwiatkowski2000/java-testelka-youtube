@@ -7,17 +7,25 @@ public class Main {
     public static void main(String[] args) {
         int password = 1111;
 
-        Scanner scanner = new Scanner(System.in);
-
         System.out.println("Password: ");
 
         int providedPassword = 0;
 
-        try {
+        /*try {
             providedPassword = scanner.nextInt();
         } catch (InputMismatchException e) {
             e.printStackTrace();
-        }
+            String test = null;
+            test.length();
+        } finally {
+            System.out.println("Cleanup.");
+            scanner.close();
+        }*/
+
+        try (Scanner scanner = new Scanner(System.in)) {
+            providedPassword = scanner.nextInt();
+        } catch (InputMismatchException | IllegalStateException e) {
+            e.printStackTrace();
 
             if (password == providedPassword) {
                 System.out.println("You've been logged in.");
@@ -26,5 +34,6 @@ public class Main {
             }
 
             System.out.println("End of the program.");
+        }
     }
 }
