@@ -10,4 +10,4 @@ public class IntegerPrinter {
     public void print() {
         System.out.println(number);
     }
-}
+} 1:50
